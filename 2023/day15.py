@@ -32,8 +32,6 @@ def runOperations(operations: list[tuple[str, int, bool]]) -> list[list[tuple[st
             boxes[idx].append([operation[0], operation[1]])
     return boxes
 
-
-
 with open("data/input15.txt") as file:
     txt = file.read().strip()
 
